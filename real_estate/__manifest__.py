@@ -1,5 +1,5 @@
 {
-    'name': 'Real Estate in odoo',
+    'name': 'real_estate',
     'version': '1.0.0',
     'depends': ['base'],
     "data": [
