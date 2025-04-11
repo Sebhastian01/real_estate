@@ -9,4 +9,5 @@
         'views/audio_note_views.xml',
     ],
     "application": True,
+    'installable': True,
 }
