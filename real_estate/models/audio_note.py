@@ -13,7 +13,7 @@ class AudioNote(models.Model):
     filename = fields.Char(string="Filename")
     transcription = fields.Text(string="Transcription")
 
-    property_id = fields.Many2one('estate.property', string="Propiedad")  # Relación con propiedad
+    property_id = fields.Many2one('estate.property', string="Propiedad")  # Relación con propiedad asi
     @api.model
     def transcribe_with_whisper(self, audio_base64, filename):
         # Guardar el archivo temporalmente
