@@ -9,7 +9,7 @@
                 Create your first property
             </p>
             <p>
-                You can create a new property by clicking on the "Create" button.
+                You can create a new surgery by clicking on the "Create" button.
             </p>
         </field>
     </record>
@@ -19,14 +19,8 @@
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
             <tree string="Properties">
-                <field name="name" string="nombre propiedad"/>
-                <field name="postcode" string="codigo postal"/>
-                <field name="bedrooms" string="habitaciones"/>
-                <field name="living_area"/>
-                <field name="expected_price"/>
-                <field name="selling_price"/>
-                <field name="date_availability" string="Available From"/>
-                <field name="state" string="estado"/>
+                <field name="name" string="nombre paciente"/>
+                <field name="date_availability" string="fecha cirugia"/>
             </tree>
         </field>
     </record>
@@ -39,18 +33,12 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="name" string="Title"/>
-                            <field name="description" string="Description"/>
-                            <field name="postcode"/>
-                            <field name="date_availability" string="Available From"/>
+                            <field name="name" string="paciente"/>
+                            <field name="date_availability" string="fecha cirugia"/>
                         </group>
                         <group>
-                            <field name="bedrooms"/>
-                            <field name="living_area"/>
-                            <field name="expected_price"/>
-                            <field name="selling_price"/>
-                            <field name="garden_orientation"/>
-                            <field name="state" string="estado"/>
+                            <field name="bedrooms" string="edad"/>
+                            <field name="expected_price" string="costo cirugia"/>
                         </group>
                     </group>
 
