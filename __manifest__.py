@@ -1,13 +1,14 @@
 {
-    'name': 'real_estate',
-    'version': '1.0.0',
+    'name': 'Real Estate',
+    'version': '1.0.1',
     'depends': ['base'],
-    "data": [
+    'category': 'Custom',  # Puedes poner una categoría que tenga más sentido en tu caso
+    'data': [
         'security/ir.model.access.csv',
         'views/estate_property_views.xml',
         'views/estate_property_menus.xml',
         'views/audio_note_views.xml',
     ],
-    "application": True,
+    'application': True,
     'installable': True,
 }
